@@ -1,0 +1,22 @@
+{
+  "name": "wingz-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggonzalezh/wingz-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggonzalezh/wingz-bot/issues"
+  },
+  "homepage": "https://github.com/ggonzalezh/wingz-bot#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
