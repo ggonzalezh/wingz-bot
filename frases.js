@@ -1,5 +1,5 @@
 let frases = [
-    "Vasta",
+    "VASTA",
     "Impresentable",
     "Txiuuuuuuuuuu",
     "Esto no era funable en el 2016",
@@ -10,7 +10,9 @@ let frases = [
     "PAN CARNE PAN",
     "POR QUE BEEFEAN MIS CHALAS WEON",
     "DE FREEE",
-    "DE GRATIS"
+    "DE GRATIS",
+    "LITERAAAL",
+    "AYAYAYA"
 ];
 
 module.exports.frases = frases;
