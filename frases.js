@@ -13,7 +13,7 @@ let frases = [
     "DE GRATIS",
     "LITERAAAL",
     "AYAYAYA",
-    "NT EN EL CHAT",
+    "gankea top broder",
     "LAITERAAAL"
 ];
 
