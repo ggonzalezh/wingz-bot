@@ -1,10 +1,10 @@
 let frases = [
     "VASTA",
-    "Impresentable",
-    "Txiuuuuuuuuuu",
+    "IMPRESENTABLE",
+    "TXIUUUUUUUUUUU",
     "Esto no era funable en el 2016",
     "Me voy mas funao que la mierda",
-    "Smitty qlo degenerado",
+    "Smitty culiao degenerado",
     "CARTA TRAMPA NOMAAAS",
     "CUM ON MY BODY AND IN MY EYE",
     "PAN CARNE PAN",
@@ -12,7 +12,9 @@ let frases = [
     "DE FREEE",
     "DE GRATIS",
     "LITERAAAL",
-    "AYAYAYA"
+    "AYAYAYA",
+    "NT EN EL CHAT",
+    "LAITERAAAL"
 ];
 
 module.exports.frases = frases;
