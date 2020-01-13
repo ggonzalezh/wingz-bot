@@ -6,7 +6,6 @@ let frases = [
     "Me voy mas funao que la mierda",
     "Smitty culiao degenerado",
     "CARTA TRAMPA NOMAAAS",
-    "CUM ON MY BODY AND IN MY EYE",
     "PAN CARNE PAN",
     "POR QUE BEEFEAN MIS CHALAS WEON",
     "DE FREEE",
