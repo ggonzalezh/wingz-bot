@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ggonzalezh/wingz-bot#readme",
   "dependencies": {
+    "request": "^2.88.2",
     "twit": "^2.2.11"
   }
 }
