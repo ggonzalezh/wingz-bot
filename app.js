@@ -1,5 +1,5 @@
 const Twit = require('twit');
-const { frases } = require("./frases");
+const { getFrases } = require("./src/firebase/getFrases");
 
 var twitter = new Twit({
     consumer_key: process.env.CONSUMER_KEY,
@@ -12,17 +12,22 @@ var stream = twitter.stream('statuses/filter', { track: ['@WingzBOT'] });
 stream.on('tweet', tweetEvent);
 
 function tweetEvent(tweet) {
-    var name = tweet.user.screen_name;
-    var nameID = tweet.id_str;
-    var reply = `@${name} ${frases[Math.floor(Math.random() * frases.length)]}`;
-    var params = {
-        status: reply,
-        in_reply_to_status_id: nameID
-    };
+    getFrases().then(frases => {
+        var arrayFrases = Object.keys(frases);
+        var name = tweet.user.screen_name;
+        var nameID = tweet.id_str;
+        var reply = `@${name} ${arrayFrases[Math.floor(Math.random() * arrayFrases.length)]}`;
+        var params = {
+            status: reply,
+            in_reply_to_status_id: nameID
+        };
 
-    twitter.post('statuses/update', params, function (err, data, response) {
-        if (err !== undefined) {
-            console.log(err);
-        }
+        twitter.post('statuses/update', params, function (err, data, response) {
+            if (err !== undefined) {
+                console.log(err);
+            }
+        })
+    }).catch(err => {
+        console.log(err);
     })
 };
